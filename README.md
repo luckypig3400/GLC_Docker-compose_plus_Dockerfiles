@@ -21,9 +21,9 @@
 + 如果你已經在Local端成功架設前後端並且順利登入，請記得要登出後再執行前後端的Docker Container，否則你的前端會無法順利運作
 
 ## Authors 🎉
-+ 李柏勳[johnny990628](https://github.com/johnny990628)
-+ 楊嘉翔[Yang-Jiaxiang](https://github.com/Yang-Jiaxiang)
-+ 楊曜承[luckypig3400](https://github.com/luckypig3400)
++ 李柏勳 [johnny990628](https://github.com/johnny990628)
++ 楊嘉翔 [Yang-Jiaxiang](https://github.com/Yang-Jiaxiang)
++ 楊曜承 [luckypig3400](https://github.com/luckypig3400)
 
 ## References
 + [Docker Port Mapping](https://www.baeldung.com/linux/assign-port-docker-container#:~:text=Port%20mapping%20is%20used%20to,redirected%20into%20the%20Docker%20container.)
@@ -40,3 +40,8 @@
 + [Push image to Docker Hub](https://docs.docker.com/engine/reference/commandline/push/)
 + [MongoDB insert data](https://www.mongodb.com/docs/manual/reference/method/db.collection.insert/)
 + [透過mongosh cli直接新增資料到MongoDB](https://stackoverflow.com/questions/4837673/how-to-execute-mongo-commands-through-shell-scripts)
+
+### 於`docker-compose.yaml`裡建置(build)多個不同的images或許可參考
++ https://docs.docker.com/compose/gettingstarted/
++ https://docs.docker.com/compose/compose-file/build/
++ https://blog.techbridge.cc/2018/09/07/docker-compose-tutorial-intro/
