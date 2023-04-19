@@ -12,7 +12,6 @@ services:
     volumes:
       - ${MONGO1_DATA_STORAGE}:/data/db
       - ${MONGO1_CONFIG_STORAGE}:/data/configdb
-      - ./mongod.conf:/etc/mongod.conf
   KiwiRS-mongo2:
     hostname: KiwiRS-mongo2
     image: mongo:${MONGO_IMAGE_VERSION}
@@ -25,7 +24,6 @@ services:
     volumes:
       - ${MONGO2_DATA_STORAGE}:/data/db
       - ${MONGO2_CONFIG_STORAGE}:/data/configdb
-      - ./mongod.conf:/etc/mongod.conf
   KiwiRS-mongo3:
     hostname: KiwiRS-mongo3
     image: mongo:${MONGO_IMAGE_VERSION}
@@ -38,7 +36,6 @@ services:
     volumes:
       - ${MONGO3_DATA_STORAGE}:/data/db
       - ${MONGO3_CONFIG_STORAGE}:/data/configdb
-      - ./mongod.conf:/etc/mongod.conf
 
   # 初始化Mongo Replica Server
   mongoinit:
