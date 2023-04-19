@@ -20,6 +20,9 @@
 ## 使用Docker的注意事項
 + 如果你已經在Local端成功架設前後端並且順利登入，請記得要登出後再執行前後端的Docker Container，否則你的前端會無法順利運作
 
+### 關於在MongoReplica內直接新增admin帳號
++ 20230419測試，發現新增完帳號後，會導致無法從外部連線到MongoReplica(包含透過localhost) 😱
+
 ## Authors 🎉
 + 李柏勳 [johnny990628](https://github.com/johnny990628)
 + 楊嘉翔 [Yang-Jiaxiang](https://github.com/Yang-Jiaxiang)
